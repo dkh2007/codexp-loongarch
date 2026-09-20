@@ -9,16 +9,23 @@
 *.ip_user_files/
 *.sim/
 .gen/
-.ip_user_files/
 webtalk*
 *.Xil/
+*.xil/
+obj_dir/
+sim_build/
+build/
+__pycache__/
 
+*.fst
 *.bit
 *.bin
 *.ltx
 *.dcp
 *.rpt
 *.mmi
+*.vvp
+*.o *.elf *.map *.out
 
 *.vcd
 *.vpd
@@ -27,7 +34,6 @@ webtalk*
 
 target/
 .bsp/
-project/
 project-build/
 
 .vscode/
